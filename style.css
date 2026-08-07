@@ -1,0 +1,101 @@
+/* 1. Подключение базовых стилей и сброс отступов */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Настройка корневого элемента и плавности */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 3. Базовые настройки тела страницы */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #aac0e3;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  height: 100vh;         
+}
+
+/* 4. Управление изображениями и медиа */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 5. Наследование шрифтов для элементов формы */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* 6. Ссылки */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 7. Списки */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 8. Интерактивные элементы */
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.square{
+background-color: white;
+  width: 1700px;
+  height: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.square-img{
+  width: 800px;
+  height: auto;
+  cursor: pointer;
+}
+.square-title, .square-paragraph{
+   font-family: "Meow Script", cursive;
+    font-weight: 400;
+  font-style: normal;
+   font-size: 70px;
+   color: #102344;
+}
+.square-paragraph{
+  font-size: 20px;
+}
