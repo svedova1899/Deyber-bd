@@ -26,7 +26,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;   
-  height: 100vh;         
+  height: 100vh;    
+  margin: 0;     
 }
 
 /* 4. Управление изображениями и медиа */
@@ -73,6 +74,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
 
 .square{
 background-color: white;
@@ -90,7 +94,7 @@ background-color: white;
   cursor: pointer;
 }
 .square-title, .square-paragraph{
-   font-family: "Meow Script", cursive;
+     font-family: "Cinzel", serif;
     font-weight: 400;
   font-style: normal;
    font-size: 70px;
