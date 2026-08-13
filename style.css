@@ -103,3 +103,22 @@ background-color: white;
 .square-paragraph{
   font-size: 20px;
 }
+@media (max-width: 768px) {
+    .container {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .square{
+      width: 250px;
+      height: 500px;
+    }
+    .square-img{
+      width: 200px;
+    }
+    .square-title{
+      font-size: 20px;
+    }
+    .square-paragraph{
+      font-size: 12px;
+    }
+}
